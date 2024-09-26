@@ -7,23 +7,14 @@
     font-family: "Poppins", sans-serif;
 }
 
-#background-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-}
-
-body {
+body{
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .wrapper {
